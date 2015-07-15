@@ -2,12 +2,45 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>jQuery Boilerplate</title>
-    <link rel="stylesheet" href="styles/style.css" charset="utf-8">
+    <title>Contact me!</title>
+    <!-- <link rel="stylesheet" href="http://necolas.github.io/normalize.css/"> -->
+    <link rel="stylesheet" href="style/style.css" charset="utf-8">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script type="text/javascript" src="scripts/app.js"></script>
   </head>
   <body>
-    <h1>jQuery Boilerplate <hr></h1>
+
+    <h1>testttt</h1>
+
+    <h3>Contact Me!<hr></h3>
+    <label for="user_name">Name</label>
+    <input type="text" id="user_name" placeholder="What is your name...?"><br>
+
+    <label for="user_email">Email</label>
+    <input type="text" id="user_email" placeholder="you@somewhere.net"><br>
+
+    <label for="user_company">Company</label>
+    <input type="text" id="user_company" placeholder="Company"><br>
+
+    <label for="user_subject">Subject</label>
+    <input type="text" id="user_subject" placeholder="Subject"><br>
+
+    <label for="user_request">Request</label><br>
+    <textarea id="user_request" placeholder="What can I help you with?"></textarea><br>
+
+    <div class="success">
+      <h2>Your message was sent!</h2>
+    </div>
+    <div class="error">
+      <h2>Your message failed to send.</h2>
+    </div>
+    <div class="loading">
+      <h2>Your request is in transit.</h2>
+    </div>
+
+    <input type="submit" id="form_send" value="Contact us now!">
+
+
+
   </body>
 </html>
