@@ -2,32 +2,125 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Contact me!</title>
-    <!-- <link rel="stylesheet" href="http://necolas.github.io/normalize.css/"> -->
-    <link rel="stylesheet" href="style/style.css" charset="utf-8">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
-    <script type="text/javascript" src="scripts/app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- font links -->
+    <link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+
+
+    <link rel="stylesheet" href="styles/styles.css">
+
+
+    <script src="scripts/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="scripts/scripts.js" type="text/javascript"></script>
+    <title>Eric the Android</title>
   </head>
-  <body>
 
-    <h1>testttt</h1>
 
-    <h3>Contact Me!<hr></h3>
+<body>
+
+
+<!-- container/wrapper -->
+<div class="container">
+
+<!-- header -->
+<!-- ***************** -->
+    <header id="head">
+      <h1 class="headline">Eric the Android</h1>
+    </header>
+
+<!-- profile centerpiece -->
+<!-- ***************** -->
+    <div class="row centerpiece">
+      <div class="three columns clearfix" left>
+        <h1 class="left">50% offline</h1><br>
+        <img class="centerpiece-img right" src="assets/leaf.svg" alt="" />
+        <h2 class="left">
+          Organic farms<br>
+          dancing<br>
+          running
+        </h2>
+      </div>
+      <div class="six columns">
+        <img src="" alt="" />
+      </div>
+      <div class="three columns clearfix right">
+        <h1 class="right">50% online</h1><br>
+        <h2 class="right">
+          E-Sports<br>
+          Fandoms<br>
+          Google
+        </h2>
+        <img class="centerpiece-img left" src="assets/circuit.svg" alt="" />
+      </div>
+    </div>
+
+<!-- section 1 -->
+<!-- ***************** -->
+    <div class="row section">
+      <div class="four columns section-img" id="palm-fan">
+      </div>
+      <div class="eight columns section">
+          <h2>I like farms :)</h2>
+          <p>
+            Marfa lo-fi selvage bicycle rights. Art party Brooklyn farm-to-table wolf fashion axe bitters. Health goth kitsch locavore Bushwick actually. Keffiyeh mumblecore fingerstache, Bushwick vegan master cleanse kogi Banksy you probably haven't heard of them 8-bit gastropub fashion axe. Fixie Bushwick Vice retro Carles, irony wolf forage chillwave. Selfies migas distillery keffiyeh aesthetic mixtape. Fap ethical tofu normcore, retro sustainable meggings mustache semiotics migas ennui chillwave pug pour-over High Life.
+          </p>
+      </div>
+    </div>
+
+<!-- section 2 -->
+<!-- ***************** -->
+    <div class="row section">
+      <div class="four columns section-img" id="dota2">
+      </div>
+      <div class="eight columns section">
+          <h2>I like farms :)</h2>
+          <p>
+            Marfa lo-fi selvage bicycle rights. Art party Brooklyn farm-to-table wolf fashion axe bitters. Health goth kitsch locavore Bushwick actually. Keffiyeh mumblecore fingerstache, Bushwick vegan master cleanse kogi Banksy you probably haven't heard of them 8-bit gastropub fashion axe. Fixie Bushwick Vice retro Carles, irony wolf forage chillwave. Selfies migas distillery keffiyeh aesthetic mixtape. Fap ethical tofu normcore, retro sustainable meggings mustache semiotics migas ennui chillwave pug pour-over High Life.
+          </p>
+      </div>
+    </div>
+
+<!-- Contact Form -->
+<!-- ***************** -->
+
+<h3>Contact Me!</h3>
+
+<!-- First Line -->
+<div class="row">
+  <div class="six columns">
     <label for="user_name">Name</label>
-    <input type="text" id="user_name" placeholder="What is your name...?"><br>
-
+    <input class="u-full-width" type="text" id="user_name" placeholder="What is your name...?">
+  </div>
+  <div class="six columns">
     <label for="user_email">Email</label>
-    <input type="text" id="user_email" placeholder="you@somewhere.net"><br>
+    <input class="u-full-width" type="text" id="user_email" placeholder="you@somewhere.net">
+  </div>
+</div>
 
+<!-- Second Line -->
+<div class="row">
+  <div class="six columns">
     <label for="user_company">Company</label>
-    <input type="text" id="user_company" placeholder="Company"><br>
-
+    <input class="u-full-width" type="text" id="user_company" placeholder="Do you work?">
+  </div>
+  <div class="six columns">
     <label for="user_subject">Subject</label>
-    <input type="text" id="user_subject" placeholder="Subject"><br>
+    <input class="u-full-width" type="text" id="user_subject" placeholder="Subject">
+  </div>
+</div>
+<!-- Last Full Line -->
+<div class="row">
+  <div class="u-full-width">
+    <label for="user_request">Request</label>
+    <textarea class="u-full-width" id="user_request" placeholder="What can I help you with?"></textarea>
+  </div>
+</div>
+<input class="button-primary" type="submit" id="form_send" value="Contact me now!">
 
-    <label for="user_request">Request</label><br>
-    <textarea id="user_request" placeholder="What can I help you with?"></textarea><br>
 
+<!-- jQuery form animations -->
     <div class="success">
       <h2>Your message was sent!</h2>
     </div>
@@ -38,9 +131,19 @@
       <h2>Your request is in transit.</h2>
     </div>
 
-    <input type="submit" id="form_send" value="Contact us now!">
 
 
 
+
+
+    <footer class="sub">
+      <small>
+        &copy; 2015 - Tardis Junkie
+      </small>
+    </footer>
+
+
+
+  </div> <!-- container/wrapper div -->
   </body>
 </html>
