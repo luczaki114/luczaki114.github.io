@@ -6,8 +6,12 @@
   html {
     font-size: 24px; }
 
+  h2 {
+    margin-bottom: .5rem; }
+
   h1 {
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    text-align: center; }
 
   .container {
     position: relative;
@@ -20,11 +24,15 @@
   .centerpiece {
     margin: 0;
     padding: 0 1rem;
+    padding-top: 1rem;
     margin-right: 0;
     margin-left: 0; }
 
   .section {
     padding-top: 1rem; }
+
+  .margin-r {
+    margin-right: 1rem; }
 
   .centerpiece-img {
     position: relative;
@@ -33,11 +41,14 @@
   .section-img {
     margin-left: 1rem; } }
 body {
-  font-size: 16px;
+  font-size: 24px;
   background: #333332; }
 
 .container {
   background: #f0f1ee; }
+
+.section {
+  margin-left: 1rem; }
 
 .left {
   float: left;
@@ -63,7 +74,7 @@ body {
   background-image: url("../assets/dota-2-logo.jpg"); }
 
 .centerpiece-img {
-  width: 20%;
+  width: 60%;
   position: relative; }
 
 .section-img {
@@ -84,7 +95,7 @@ header {
   background-color: #ffd464; }
 
 html {
-  font-size: 16px; }
+  font-size: 24px; }
 
 h1 {
   font-size: 3.5rem;
@@ -139,7 +150,14 @@ small {
     margin: 0 auto;
     padding: 0 1rem; }
 
+  .section {
+    margin-left: 0; }
+
+  .centerpiece-img {
+    width: 20%; }
+
   .section-img {
-    padding-bottom: 100%; } }
+    padding-bottom: 100%;
+    margin-left: 0; } }
 
 /*# sourceMappingURL=styles.css.map */

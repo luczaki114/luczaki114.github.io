@@ -2,8 +2,12 @@
   html {
     font-size: 24px; }
 
+  h2 {
+    margin-bottom: .5rem; }
+
   h1 {
-    margin-bottom: 0px; }
+    margin-bottom: 0px;
+    text-align: center; }
 
   .container {
     position: relative;
@@ -16,11 +20,15 @@
   .centerpiece {
     margin: 0;
     padding: 0 1rem;
+    padding-top: 1rem;
     margin-right: 0;
     margin-left: 0; }
 
   .section {
     padding-top: 1rem; }
+
+  .margin-r {
+    margin-right: 1rem; }
 
   .centerpiece-img {
     position: relative;
