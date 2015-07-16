@@ -104,7 +104,7 @@ header {
   background-color: #333332; }
 
 .centerpiece {
-  background-color: -webkit-repeating-radial-gradient(#f0f1ee, #ffd464, #f0f1ee); }
+  background-color: #ffd464; }
 
 html {
   font-size: 16px; }
@@ -152,7 +152,7 @@ small {
     width: 125%; }
 
   .centerpiece {
-    background-color: -webkit-repeating-radial-gradient(#f0f1ee, #ffd464, #f0f1ee);
+    background-color: #ffd464;
     margin-right: -6.5%;
     margin-left: -6.5%;
     padding: 0 1rem; }
