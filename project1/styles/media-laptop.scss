@@ -35,8 +35,11 @@
 
   .section {
     padding-top: $font-size-standard;
-  }
 
+  }
+  .sub{
+    margin-left: $font-size-standard;
+  }
   .margin-r {
     margin-right: $font-size-standard
   }
@@ -51,7 +54,15 @@
   .section-img {
     margin-left: $font-size-standard;
   }
-
+  .img-right {
+    left: 132%;
+  }
+  .img-left {
+    right: 132%;
+  }
+  .img-center {
+    margin: 0 auto;
+  }
 ////////////////////////////////////////////////////////////
 ///////////////
 

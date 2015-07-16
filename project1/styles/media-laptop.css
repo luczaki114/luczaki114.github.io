@@ -27,6 +27,9 @@
   .section {
     padding-top: 1rem; }
 
+  .sub {
+    margin-left: 1rem; }
+
   .margin-r {
     margin-right: 1rem; }
 
@@ -35,6 +38,15 @@
     width: 50%; }
 
   .section-img {
-    margin-left: 1rem; } }
+    margin-left: 1rem; }
+
+  .img-right {
+    left: 132%; }
+
+  .img-left {
+    right: 132%; }
+
+  .img-center {
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=media-laptop.css.map */

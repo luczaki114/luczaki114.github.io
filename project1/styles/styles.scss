@@ -78,7 +78,8 @@ header {
 }
 
 .centerpiece {
-  background-color: $body-centerpiece;
+  // background-color: $body-centerpiece;
+  background-color: -webkit-repeating-radial-gradient(rgb(240, 241, 238), rgb(255, 212, 100), rgb(240, 241, 238));
 }
 
 
@@ -165,11 +166,14 @@ small {
 //////////////// Images
 
   .centerpiece-img {
-    width: 20%;
+    width: 30%;
   }
   .section-img {
     padding-bottom: 100%;
     margin-left: 0;
+  }
+  .img-right {
+    left: 50%
   }
 
 }
