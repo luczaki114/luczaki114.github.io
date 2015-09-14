@@ -1,0 +1,70 @@
+@import 'variables.scss';
+@media ( min-width: 480px ){
+
+////////////////////////////////////////////////////////////
+/////////////// Typography changes
+  html {
+    font-size: 24px;
+  }
+  h2 {
+    margin-bottom: .5rem;
+  }
+////////////////////////////////////////////////////////////
+/////////////// DOM changes
+  h1 {
+    margin-bottom: 0px;
+    text-align: center;
+  }
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0px;
+  }
+
+  .centerpiece {
+    margin: 0;
+    padding: 0 $font-size-standard;
+    padding-top: $font-size-standard;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .section {
+    padding-top: $font-size-standard;
+
+  }
+  .sub{
+    margin-left: $font-size-standard;
+  }
+  .margin-r {
+    margin-right: $font-size-standard
+  }
+
+////////////////////////////////////////////////////////////
+/////////////// Img changes
+
+  .centerpiece-img {
+    position: relative;
+    width: 50%;
+  }
+  .section-img {
+    margin-left: $font-size-standard;
+  }
+  .img-right {
+    left: 132%;
+  }
+  
+  .img-left {
+    right: 132%;
+  }
+  .img-center {
+    margin: 0 auto;
+  }
+////////////////////////////////////////////////////////////
+///////////////
+
+}

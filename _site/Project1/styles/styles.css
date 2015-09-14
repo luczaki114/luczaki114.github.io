@@ -1,0 +1,178 @@
+@import url(border-box.css);
+@import url(clearfix.css);
+@import url(normalize.css);
+@import url(skeleton.css);
+@media (min-width: 480px) {
+  html {
+    font-size: 24px; }
+
+  h2 {
+    margin-bottom: .5rem; }
+
+  h1 {
+    margin-bottom: 0px;
+    text-align: center; }
+
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0px; }
+
+  .centerpiece {
+    margin: 0;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    margin-right: 0;
+    margin-left: 0; }
+
+  .section {
+    padding-top: 1rem; }
+
+  .sub {
+    margin-left: 1rem; }
+
+  .margin-r {
+    margin-right: 1rem; }
+
+  .centerpiece-img {
+    position: relative;
+    width: 50%; }
+
+  .section-img {
+    margin-left: 1rem; }
+
+  .img-right {
+    left: 132%; }
+
+  .img-left {
+    right: 132%; }
+
+  .img-center {
+    margin: 0 auto; } }
+body {
+  font-size: 16px;
+  background: #333332; }
+
+.container {
+  background: #f0f1ee; }
+
+.section {
+  margin-left: 1rem; }
+
+.left {
+  float: left;
+  text-align: left; }
+
+.right {
+  float: right;
+  text-align: right; }
+
+#phone {
+  display: none; }
+
+#tablet {
+  display: none; }
+
+#laptop {
+  display: none; }
+
+#palm-fan {
+  background-image: url("../assets/palm-fan.jpg"); }
+
+#dota2 {
+  background-image: url("../assets/dota-2-logo.jpg"); }
+
+.centerpiece-img {
+  width: 60%;
+  position: relative; }
+
+.section-img {
+  background-position: center;
+  background-size: cover;
+  height: 0;
+  padding-bottom: 30%;
+  margin-left: 1rem;
+  border-radius: 100%; }
+
+body {
+  background-color: #333332; }
+
+header {
+  background-color: #333332; }
+
+.centerpiece {
+  background-color: #ffd464; }
+
+html {
+  font-size: 16px; }
+
+h1 {
+  font-size: 3.5rem;
+  font-family: "Architects Daughter", cursive;
+  color: #1352a2; }
+
+h2 {
+  font-size: 2rem;
+  font-family: "Architects Daughter", cursive;
+  color: #1352a2; }
+
+label {
+  color: #1352a2;
+  font-family: "Architects Daughter", cursive;
+  font-size: 2rem; }
+
+p {
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 1rem;
+  color: #fb6964; }
+
+small {
+  font-family: "Didact Gothic", sans-serif;
+  color: #ffd464; }
+
+@media (max-width: 480px) {
+  p {
+    font-size: 1rem; }
+
+  h2 {
+    font-size: 2rem; }
+
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0;
+    text-align: center;
+    width: 95%; }
+
+  header {
+    position: relative;
+    right: 10%;
+    width: 125%; }
+
+  .centerpiece {
+    background-color: #ffd464;
+    margin-right: -6.5%;
+    margin-left: -6.5%;
+    padding: 0 1rem; }
+
+  .container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 1rem; }
+
+  .section {
+    margin-left: 0; }
+
+  .centerpiece-img {
+    width: 30%; }
+
+  .section-img {
+    padding-bottom: 100%;
+    margin-left: 0; }
+
+  .img-right {
+    left: 50%; } }
+
+/*# sourceMappingURL=styles.css.map */

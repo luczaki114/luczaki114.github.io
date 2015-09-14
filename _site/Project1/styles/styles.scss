@@ -1,0 +1,179 @@
+@import 'border-box.css';
+@import 'clearfix.css';
+@import 'normalize.css';
+@import 'skeleton.css';
+@import 'variables.scss';
+@import 'media-laptop.scss';
+
+//target the DOM
+body {
+  font-size: $base-page-size;
+  background: $body-background;
+}
+
+.container {
+  background: $content-background;
+}
+
+.section {
+  margin-left: $font-size-standard;
+}
+
+.left{
+  float:left;
+  text-align: left;
+}
+.right {
+  float: right;
+  text-align: right;
+}
+
+#phone {
+  display:none;
+}
+
+#tablet {
+  display:none;
+}
+
+#laptop {
+  display:none;
+}
+
+
+///////////////////////////////////////////////////
+/////////// Image properties!!
+#palm-fan {
+  background-image: url("../assets/palm-fan.jpg");
+}
+#dota2 {
+  background-image: url("../assets/dota-2-logo.jpg");
+}
+
+.centerpiece-img {
+//leaf by Mateo Zlatar from the Noun Project
+//circuit by alessandra antonetti from the Noun Project
+  width: 60%;
+  position: relative;
+}
+
+.section-img {
+  background-position: center;
+  background-size: cover;
+  height: 0;
+  padding-bottom: 30%;
+  margin-left: $font-size-standard;
+  border-radius: 100%;
+}
+
+////////////////////////////////////////////////////////////////
+//////////// Colors
+
+body {
+  background-color: $body-background;
+}
+
+header {
+  background-color: $body-background;
+}
+
+.centerpiece {
+  background-color: $body-centerpiece;
+  
+}
+
+
+
+////////////////////////////////////////////////////////////////
+// typography & font color
+html {
+  font-size: $base-page-size;
+}
+
+h1 {
+  font-size: $font-size-headline;
+  font-family: $font-family-Header;
+  color: $font-header;
+}
+
+h2 {
+  font-size: $font-size-byline;
+  font-family: $font-family-Header;
+  color: $font-header;
+}
+
+label {
+  color: $font-header;
+  font-family: $font-family-Header;
+  font-size: $font-size-byline;
+}
+p {
+  font-family: $font-family-text;
+  font-size: $font-size-standard;
+  color: $body-text;
+}
+small {
+  font-family: $font-family-text;
+  color: $body-sub;
+}
+
+
+
+// Media Queries for responsive design
+
+@media (max-width: $device-max-phone) {
+
+////////////////////////////////////////////////////////
+////////////// Typography
+  p {
+    font-size: $font-size-standard;
+  }
+  h2 {
+    font-size: $font-size-byline;
+  }
+  h1 {
+    font-size: $font-size-headline;
+    margin-bottom: 0;
+    text-align: center;
+    width: 95%;
+  }
+
+////////////////////////////////////////////////////////
+////////////// target the DOM
+  header {
+    position: relative;
+    right: 10%;
+    width: 125%;
+  }
+
+  .centerpiece {
+    background-color: $body-centerpiece;
+    margin-right: -6.5%;
+    margin-left: -6.5%;
+    padding: 0 $font-size-standard;
+  }
+
+  .container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0 $font-size-standard;
+  }
+
+  .section {
+    margin-left: 0;
+  }
+////////////////////////////////////////////////////////////////
+//////////////// Images
+
+  .centerpiece-img {
+    width: 30%;
+  }
+  .section-img {
+    padding-bottom: 100%;
+    margin-left: 0;
+  }
+  .img-right {
+    left: 50%
+  }
+
+}

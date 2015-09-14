@@ -1,0 +1,31 @@
+
+<h2>Hello World</h2>
+
+<p>
+  Sinatra here giving you some swanky content to spice up your day.
+</p>
+
+<script>
+
+  $(document).ready(function () {
+
+    var p = $('p');
+    $.ajax({
+
+      type: 'get',
+      dataType: 'json',
+      url: '/json1',
+      success: function (data) {
+        console.log(data);
+        $(p).html(data.message);
+      },
+      error: function (err) {
+        console.log(err);
+        $(p).html('An error occured');
+      }
+
+    });
+
+  });
+
+</script>
