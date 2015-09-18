@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ireneusz *Eric* Luczak</title>
-    <description>Write an awesome description for your portfolio here!
+    <title>Ireneusz Eric Luczak</title>
+    <description>My personal projects and other nerdy things.
 </description>
     <link>https://luczaki114.github.io/</link>
     <atom:link href="https://luczaki114.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 14 Sep 2015 11:21:09 -0500</pubDate>
-    <lastBuildDate>Mon, 14 Sep 2015 11:21:09 -0500</lastBuildDate>
+    <pubDate>Thu, 17 Sep 2015 09:10:12 -0500</pubDate>
+    <lastBuildDate>Thu, 17 Sep 2015 09:10:12 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
