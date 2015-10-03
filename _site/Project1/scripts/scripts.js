@@ -49,15 +49,15 @@ app.sendEmail = function (emailData) {
     $('.success').hide ();
     $('.error').hide ();
 
-    var ajaxData = {
+    $.ajax({
       type: 'post',
-      url: 'http://imperialholonet.herokuapp.com/api/mail',
+      url: 'https://sinatraemail.herokuapp.com/api/mail',
       data: emailData,
       success: function (data) {
         console.log(data);
         $('.loading').slideUp ();
         console.log("yup");
-        $('.success').show;
+        $('.success').show();
       },
       error: function(err) {
         console.log(err);
@@ -65,7 +65,10 @@ app.sendEmail = function (emailData) {
         console.log("Nope");
         $('.error').show ();
       }
-    }
+    });
+
+
+
   };
 
 

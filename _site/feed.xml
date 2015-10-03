@@ -4,10 +4,10 @@
     <title>Ireneusz Eric Luczak</title>
     <description>My personal projects and other nerdy things.
 </description>
-    <link>https://luczaki114.github.io/</link>
-    <atom:link href="https://luczaki114.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 17 Sep 2015 09:10:12 -0500</pubDate>
-    <lastBuildDate>Thu, 17 Sep 2015 09:10:12 -0500</lastBuildDate>
+    <link>localhost:4000/</link>
+    <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 18 Sep 2015 08:43:09 -0500</pubDate>
+    <lastBuildDate>Fri, 18 Sep 2015 08:43:09 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -30,8 +30,8 @@
 &lt;p&gt;&lt;em&gt;Add a link to Github as well&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Sep 2015 05:34:07 -0500</pubDate>
-        <link>https://luczaki114.github.io/project/portfolio/sleep/javascript/2015/09/14/Project-4.html</link>
-        <guid isPermaLink="true">https://luczaki114.github.io/project/portfolio/sleep/javascript/2015/09/14/Project-4.html</guid>
+        <link>localhost:4000/project/portfolio/sleep/javascript/2015/09/14/Project-4.html</link>
+        <guid isPermaLink="true">localhost:4000/project/portfolio/sleep/javascript/2015/09/14/Project-4.html</guid>
         
         
         <category>project</category>
@@ -46,62 +46,326 @@
     
       <item>
         <title>Project #3: RESTful API and Backbone Integration</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://pcwallart.com/images/legend-of-korra-wallpaper-1080p-wallpaper-3.jpg&quot; alt=&quot;http://pcwallart.com/images/legend-of-korra-wallpaper-1080p-wallpaper-3.jpg&quot; /&gt;&lt;/p&gt;
+        <description>&lt;h1 id=&quot;a-simple-rails-application-that-uses-backbone-to-render-content-from-a-restful-api-built-in-ror&quot;&gt;A simple rails application that uses backbone to render content from a RESTful api built in RoR.&lt;/h1&gt;
 
-&lt;h2 id=&quot;summary-of-project&quot;&gt;Summary of Project&lt;/h2&gt;
+&lt;h3 id=&quot;technologies-used&quot;&gt;Technologies used…&lt;/h3&gt;
+&lt;p&gt;######Ruby
+######Ruby on Rails
+######ActiveRecord
+######PostgreSQL
+######jQuery
+######Backbone/Underscore
+######Bootstrap&lt;/p&gt;
 
-&lt;p&gt;-HTML
--CSS
--Javascript
--Love&lt;/p&gt;
+&lt;h3 id=&quot;to-use-locally&quot;&gt;To use locally:&lt;/h3&gt;
+&lt;p&gt;-Use terminal to get to the root of the app.&lt;/p&gt;
 
-&lt;h2 id=&quot;project-images&quot;&gt;Project images&lt;/h2&gt;
+&lt;p&gt;-replace username: app-user in the development environment in the database.yml file to your username(Don’t know your username? Open psql and type SELECT * FROM pg_user;)&lt;/p&gt;
 
-&lt;h2 id=&quot;live-website&quot;&gt;Live Website&lt;/h2&gt;
+&lt;p&gt;-Run rake commands db:create, db:migrate, db:seed.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Add a link here if it is legally ok to do so…&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;-Open rails console and type ApiKey.create to create a key to use locally.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Add a link to Github as well&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;-Copy that new key and throw it in a .env file in your root directory under the variable APIKEY.&lt;/p&gt;
+
+&lt;p&gt;-Rails server and you should be up on your machine.&lt;/p&gt;
+
+&lt;h3 id=&quot;to-use-with-heroku&quot;&gt;To use with heroku:&lt;/h3&gt;
+
+&lt;p&gt;-So far I managed to upload the rails app and the initial root view shows up with no problems.&lt;/p&gt;
+
+&lt;p&gt;-A simple Github link to the repository is enough to run smoothly.&lt;/p&gt;
+
+&lt;h6 id=&quot;but&quot;&gt;but!&lt;/h6&gt;
+
+&lt;p&gt;-Backbone cannot access the api because it doesnt have a production key.&lt;/p&gt;
+
+&lt;p&gt;-install Heroku toolbelt.&lt;/p&gt;
+
+&lt;p&gt;-login to use heroku account using ‘heroku login’ in terminal.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;in terminal ‘heroku rails console –app myapp’&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;-in IRB type ‘ApiKey.create’ Copy api token.&lt;/p&gt;
+
+&lt;p&gt;-On your heroku site, go to settings and make a new config variable called API_KEY and paste token value in there.&lt;/p&gt;
+
+&lt;p&gt;-Deploy and run!&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Sep 2015 05:34:07 -0500</pubDate>
-        <link>https://luczaki114.github.io/project/portfolio/sleep/javascript/2015/09/14/Project-3.html</link>
-        <guid isPermaLink="true">https://luczaki114.github.io/project/portfolio/sleep/javascript/2015/09/14/Project-3.html</guid>
+        <link>localhost:4000/project/portfolio/javascript/backbone/rails/ruby/2015/09/14/Project-3.html</link>
+        <guid isPermaLink="true">localhost:4000/project/portfolio/javascript/backbone/rails/ruby/2015/09/14/Project-3.html</guid>
         
         
         <category>project</category>
         
         <category>portfolio</category>
         
-        <category>sleep</category>
-        
         <category>javascript</category>
+        
+        <category>backbone</category>
+        
+        <category>rails</category>
+        
+        <category>ruby</category>
         
       </item>
     
       <item>
         <title>Project #2: My First Full Stack App in Sinatra</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://pcwallart.com/images/legend-of-korra-wallpaper-1080p-wallpaper-3.jpg&quot; alt=&quot;http://pcwallart.com/images/legend-of-korra-wallpaper-1080p-wallpaper-3.jpg&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/images/Dota2CounterPicker.png&quot; alt=&quot;Dota 2 Counter Picker&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;summary-of-project&quot;&gt;Summary of Project&lt;/h2&gt;
+&lt;h1 id=&quot;dota-2-counter-picker&quot;&gt;DOTA 2 Counter-Picker&lt;/h1&gt;
+&lt;p&gt;## Overview&lt;/p&gt;
 
-&lt;p&gt;-HTML
--CSS
--Javascript
--Ruby
--Sinatra
--Nokogiri&lt;/p&gt;
+&lt;p&gt;DOTA 2 Counter-Picker is an application that allows a user to select up to 5 opposing heros and returns a list of 5 counter picks for each opposing hero.  The application uses an MVC (Model/View/Controller) design.&lt;/p&gt;
 
-&lt;h2 id=&quot;project-images&quot;&gt;Project images&lt;/h2&gt;
+&lt;h2 id=&quot;technology&quot;&gt;Technology&lt;/h2&gt;
 
-&lt;h2 id=&quot;live-website&quot;&gt;Live Website&lt;/h2&gt;
+&lt;p&gt;HTML
+  CSS
+  BootStrap
+  JavaScript
+  jQuery
+  Ruby&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Add a link here if it is legally ok to do so…&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Sinatra
+  PG
+  Sinatra ActiveRecord
+  Nokigiri
+  BCrypt
+  Open-URI&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Add a link to Github as well&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;erd-entity-relationship-digram&quot;&gt;ERD (Entity-Relationship Digram)&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;USERS&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PK&lt;/td&gt;
+      &lt;td&gt;id&lt;/td&gt;
+      &lt;td&gt;SERIAL PRIMARY KEY&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;user_name&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;user_email&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;password_hash&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;password_salt&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;HEROCOUNTER&lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+      &lt;th&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;PK&lt;/td&gt;
+      &lt;td&gt;id&lt;/td&gt;
+      &lt;td&gt;SERIAL PRIMARY KEY&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;name&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;imageurl&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counter1&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counterimageurl1&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counter2&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counterimageurl2&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counter3&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counterimageurl3&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counter4&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counterimageurl4&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counter5&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counterimageurl5&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counter6&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counterimageurl6&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counter7&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counterimageurl7&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counter8&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt; &lt;/td&gt;
+      &lt;td&gt;counterimageurl8&lt;/td&gt;
+      &lt;td&gt;varchar(255)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;approach&quot;&gt;Approach&lt;/h2&gt;
+
+&lt;h4 id=&quot;model&quot;&gt;Model&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Postgres SQL database&lt;/li&gt;
+  &lt;li&gt;Sinatra-ActiveRecord&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;view&quot;&gt;View&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;HTML&lt;/li&gt;
+  &lt;li&gt;CSS&lt;/li&gt;
+  &lt;li&gt;Bootstrap&lt;/li&gt;
+  &lt;li&gt;JavaScript&lt;/li&gt;
+  &lt;li&gt;jQuery&lt;/li&gt;
+  &lt;li&gt;Ruby ERB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;controller&quot;&gt;Controller&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ruby&lt;/li&gt;
+  &lt;li&gt;Sinatra&lt;/li&gt;
+  &lt;li&gt;PG&lt;/li&gt;
+  &lt;li&gt;ActiveRecord&lt;/li&gt;
+  &lt;li&gt;BCrypt&lt;/li&gt;
+  &lt;li&gt;Open-URI&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;user-management&quot;&gt;User Management&lt;/h3&gt;
+
+&lt;p&gt;The application requires users to register and/or login with their account.  User passwords are stored in the database as a combination of a password_hash and a password_salt.&lt;/p&gt;
+
+&lt;p&gt;Validation of a users email is done using BCrypt to take the password the user entered and use the password_salt to create a password_hash.  The generated password_hash is compared to the stored password_hash, and if they match the user is authenticated and redirected to the main page.&lt;/p&gt;
+
+&lt;h3 id=&quot;front-endviews&quot;&gt;Front-End/Views&lt;/h3&gt;
+
+&lt;p&gt;Users are presented with a a form to select at least 1 and up to 5 Dota2 heroes they are playing against.  Clicking the calculate button will generate a view showing a the hero, image of the hero, and the top 5 counter heroes and their images.&lt;/p&gt;
+
+&lt;h3 id=&quot;back-endcontrollers&quot;&gt;Back-End/Controllers&lt;/h3&gt;
+
+&lt;p&gt;Ruby and Sinatra are used to configure the back-end.  Bundler is included to manage Gemfile dependencies.  Controllers are broken down into:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Application&lt;/li&gt;
+  &lt;li&gt;Login&lt;/li&gt;
+  &lt;li&gt;Register&lt;/li&gt;
+  &lt;li&gt;Home&lt;/li&gt;
+  &lt;li&gt;Hero&lt;/li&gt;
+  &lt;li&gt;Upload&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All of the controllers inherit from the Application Controller.  This modular approach allows changes to one controller without effecting the overall application.&lt;/p&gt;
+
+&lt;p&gt;The upload controller is used to scrape data using the Open-uri gem, parse it using the Nokorgiri gem, specifying the Xpath and  adding the data to an array.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;ruby
+heroes_doc = Nokogiri::HTML(open(&quot;http://dotabuff.com/heroes&quot;)) # this grabs the page.
+names_array = heroes_doc.xpath(&quot;//div[@class=&#39;name&#39;]/text()&quot;)
+&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Once the model is populated, we use this to return data to the views.&lt;/p&gt;
+
+&lt;h2 id=&quot;installation-instructions&quot;&gt;Installation Instructions&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Clone this repository&lt;/li&gt;
+  &lt;li&gt;Navigate to the directory it is stored in&lt;/li&gt;
+  &lt;li&gt;‘bundle’ the Gemfile&lt;/li&gt;
+  &lt;li&gt;Run the migrations.sql file in Postgres to generate the required databases&lt;/li&gt;
+  &lt;li&gt;Run ‘bundle exec rackup’&lt;/li&gt;
+  &lt;li&gt;Browse to localhost:9292&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;unsolved-problems&quot;&gt;Unsolved Problems&lt;/h2&gt;
+&lt;p&gt;The actual heavy lifting and logic behind the counterpicker is done by DotaBuff.com All we did is build a scraper that lets us grab the top 5 best heroes vs a given character. This is nothing more than an A to B relationship.&lt;/p&gt;
+
+&lt;h2 id=&quot;version-20&quot;&gt;Version 2.0&lt;/h2&gt;
+&lt;p&gt;Further down the road, using more stats, I would like to add more complexity to the logic by making couterpick recommendations based on current team composition, as opposed to a single hero scope. This is much more challenging alough it would be fun to put together all that logic.&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Sep 2015 05:34:07 -0500</pubDate>
-        <link>https://luczaki114.github.io/project/portfolio/javascript/ruby/sinatra/2015/09/14/Project-2.html</link>
-        <guid isPermaLink="true">https://luczaki114.github.io/project/portfolio/javascript/ruby/sinatra/2015/09/14/Project-2.html</guid>
+        <link>localhost:4000/project/portfolio/javascript/ruby/sinatra/nokogiri/2015/09/14/Project-2.html</link>
+        <guid isPermaLink="true">localhost:4000/project/portfolio/javascript/ruby/sinatra/nokogiri/2015/09/14/Project-2.html</guid>
         
         
         <category>project</category>
@@ -114,39 +378,88 @@
         
         <category>sinatra</category>
         
+        <category>nokogiri</category>
+        
       </item>
     
       <item>
-        <title>Project #1: An HTML &amp; CSS porfolio page</title>
-        <description>&lt;p&gt;&lt;img src=&quot;http://pcwallart.com/images/legend-of-korra-wallpaper-1080p-wallpaper-3.jpg&quot; alt=&quot;http://pcwallart.com/images/legend-of-korra-wallpaper-1080p-wallpaper-3.jpg&quot; /&gt;&lt;/p&gt;
+        <title>Project #1: A simple Contact Form</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/ContactForm.png&quot; alt=&quot;Contact Form Site&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;summary-of-project&quot;&gt;Summary of Project&lt;/h2&gt;
+&lt;h1 id=&quot;this-is-my-about-me-website&quot;&gt;This is my about me website.&lt;/h1&gt;
 
-&lt;p&gt;-HTML
--CSS
--Javascript
--Love&lt;/p&gt;
+&lt;h3 id=&quot;this-is-a-project-that-was-required-end-of-week-three-for-general-assemblys-web-development-immersive-course&quot;&gt;This is a project that was required end of week three for General Assembly’s Web Development Immersive course.&lt;/h3&gt;
 
-&lt;h2 id=&quot;project-images&quot;&gt;Project images&lt;/h2&gt;
+&lt;p&gt;I needed to meet the following requirements.
+* Be hosted on Github pages.
+* Contain an organization structure for HTML, CSS, and Javascript
+* Utilize vanilla Javascript OR jQuery for DOM manipulation
+* Adequately represent your project scope; ie: a product website should contain product information.
+* Stick with KISS (Keep It Simple Stupid) and DRY (Don’t Repeat Yourself) principles
+* Use one media query/breakpoints for Responsive Design
+* Use ONE $.ajax call to external APIs and render data from them&lt;/p&gt;
 
-&lt;h2 id=&quot;live-website&quot;&gt;Live Website&lt;/h2&gt;
+&lt;p&gt;Extras that could be included were:
+* Include a Contact Form that works in real-time!
+* Include a Google Map on you website to show the location of the service(s) provided
+* Include multiple pages that follow the same design/layout as others
+* Use Sass in your project for CSS variables, nesting, and more!\
+* Use jQuery Animations or CSS Key Frames to make your page come to life!&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Add a link here if it is legally ok to do so…&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We had 5 days.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Add a link to Github as well&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;i-made-this-using-html-5-css3-sass-skeletoncss-javascript-and-jquery&quot;&gt;I made this using HTML 5, CSS3, sass, skeleton.css, javascript and jQuery.&lt;/h2&gt;
+&lt;p&gt;This is my first site built from scratch and it taught me the importance of proper structure, and allowed me to see why some practices are considered best practices.&lt;/p&gt;
+
+&lt;p&gt;I’m not afraid of floating things or changing the position property.&lt;/p&gt;
+
+&lt;p&gt;It also let me see that I definitely not a web designer. Please give me a style guide!!&lt;/p&gt;
+
+&lt;h3 id=&quot;breakpoints&quot;&gt;Breakpoints&lt;/h3&gt;
+&lt;p&gt;The site is meant to be viewed on either a 320px-wide screen or anything over 960px.&lt;/p&gt;
+
+&lt;h3 id=&quot;skeletoncss&quot;&gt;Skeleton.css&lt;/h3&gt;
+&lt;p&gt;This helped me layout my site. After using it, I realized that I would want to take a better look at initial design structure so that I wouldn’t need to use negative margins in my code.&lt;/p&gt;
+
+&lt;h3 id=&quot;sass&quot;&gt;Sass&lt;/h3&gt;
+&lt;p&gt;Variables… and a style guide. Powerful tools to keep your code dry and easy to work with. I want to continue using sass, because it does make CSS fun. I want to create my own variables and functions that I will find useful.&lt;/p&gt;
+
+&lt;h2 id=&quot;version-20&quot;&gt;Version 2.0&lt;/h2&gt;
+&lt;p&gt;If given more time I would add more breakpoints to modify the grid and containers I made. I am not afraid of responsive design knowing I can use both a fluid and pixel grid.&lt;/p&gt;
+
+&lt;p&gt;I would also use a better boilerplate that I would work on first. Now that I used this and fell into some ditches I know which ones to avoid; until the next set of issues comes my way.&lt;/p&gt;
+
+&lt;p&gt;I would also add more Ajax calls, most likely from the Steam API. I would like to display my last game of Dota 2 played including some stats. I would then use jQuery to append it to the site along with predefined classes for automatic styling from my CSS.&lt;/p&gt;
+
+&lt;p&gt;I would modularize my scss files even more.&lt;br /&gt;
+I would begin the project mobile first and add breakpoints as I move out. &lt;br /&gt;
+I would begin by getting all my assets organized and in place before starting. A defined scope is liberating! &lt;br /&gt;
+I would use jQuery animations to animate my site.
+I would put each breakpoint in a different scss file.&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;after-bootcamp-thoughts&quot;&gt;After Bootcamp Thoughts&lt;/h2&gt;
+&lt;p&gt;Yep. I am not a design major.
+Fixed a couple bugs with the Ajax call not working at all.
+Also linked it to a super simple email server so I am getting my own emails.
+I will pick up a book on some advanced css, layout and design so that my front end pages actually look decent.
+I’m not talking about clientside MVC frameworks, but just plain old CSS to make my page pop.&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Sep 2015 05:34:07 -0500</pubDate>
-        <link>https://luczaki114.github.io/project/portfolio/sleep/javascript/2015/09/14/Project-1.html</link>
-        <guid isPermaLink="true">https://luczaki114.github.io/project/portfolio/sleep/javascript/2015/09/14/Project-1.html</guid>
+        <link>localhost:4000/project/portfolio/javascript/html/css/jquery/2015/09/14/Project-1.html</link>
+        <guid isPermaLink="true">localhost:4000/project/portfolio/javascript/html/css/jquery/2015/09/14/Project-1.html</guid>
         
         
         <category>project</category>
         
         <category>portfolio</category>
         
-        <category>sleep</category>
-        
         <category>javascript</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+        <category>jquery</category>
         
       </item>
     
@@ -157,8 +470,8 @@
 &lt;p&gt;Add some &lt;em&gt;content&lt;/em&gt; and &lt;strong&gt;awesomeness&lt;/strong&gt; using &lt;code&gt;markdown&lt;/code&gt;!&lt;/p&gt;
 </description>
         <pubDate>Fri, 05 Jun 2015 05:34:07 -0500</pubDate>
-        <link>https://luczaki114.github.io/portfolio/update/2015/06/05/portfolio.html</link>
-        <guid isPermaLink="true">https://luczaki114.github.io/portfolio/update/2015/06/05/portfolio.html</guid>
+        <link>localhost:4000/portfolio/update/2015/06/05/portfolio.html</link>
+        <guid isPermaLink="true">localhost:4000/portfolio/update/2015/06/05/portfolio.html</guid>
         
         
         <category>portfolio</category>
@@ -185,8 +498,8 @@
 
 </description>
         <pubDate>Mon, 01 Jun 2015 05:34:07 -0500</pubDate>
-        <link>https://luczaki114.github.io/jekyll/update/2015/06/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://luczaki114.github.io/jekyll/update/2015/06/01/welcome-to-jekyll.html</guid>
+        <link>localhost:4000/jekyll/update/2015/06/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">localhost:4000/jekyll/update/2015/06/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

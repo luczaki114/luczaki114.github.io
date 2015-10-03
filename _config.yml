@@ -4,7 +4,7 @@ email: luczak.irek@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   My personal projects and other nerdy things.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://luczaki114.github.io" # the base hostname & protocol for your site
+url: "localhost:4000" # the base hostname & protocol for your site
 twitter_username: luczak_eric
 github_username:  luczaki114
 

@@ -342,6 +342,9 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+.githubIcon {
+  width: 1.5rem; }
+
 /**
  * Syntax highlighting styles
  */
