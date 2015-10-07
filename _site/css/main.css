@@ -151,6 +151,12 @@ pre {
   min-height: 56px;
   position: relative; }
 
+#profilepic {
+  width: 3rem;
+  border-radius: 100%;
+  border-width: 2px;
+  border-color: #fdfdfd; }
+
 .site-title {
   font-size: 26px;
   line-height: 56px;

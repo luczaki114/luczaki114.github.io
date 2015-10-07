@@ -10,6 +10,13 @@
     position: relative;
 }
 
+#profilepic {
+  width: 3rem;
+  border-radius: 100%;
+  border-width: 2px;
+  border-color: rgb(253, 253, 253);
+}
+
 .site-title {
     font-size: 26px;
     line-height: 56px;

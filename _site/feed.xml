@@ -6,12 +6,12 @@
 </description>
     <link>localhost:4000/</link>
     <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 07 Oct 2015 13:55:37 -0500</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2015 13:55:37 -0500</lastBuildDate>
+    <pubDate>Wed, 07 Oct 2015 15:03:36 -0500</pubDate>
+    <lastBuildDate>Wed, 07 Oct 2015 15:03:36 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Hash#Track</title>
+        <title>Project #4: Hash#Track</title>
         <description>&lt;p&gt;&lt;img src=&quot;/images/Hashtrack.png&quot; alt=&quot;Hashtrack Site&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;hashtrack&quot;&gt;Hash_track&lt;/h1&gt;
@@ -477,7 +477,7 @@ I would use jQuery animations to animate my site.
 I would put each breakpoint in a different scss file.&lt;br /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;after-bootcamp-thoughts&quot;&gt;After Bootcamp Thoughts&lt;/h2&gt;
-&lt;p&gt;Yep. I am not a design major.
+&lt;p&gt;I really want to take a design class so that my sites look better. Having a better understanding of typography, color theory, images and logos would be extremely beneficial.
 Fixed a couple bugs with the Ajax call not working at all.
 Also linked it to a super simple email server so I am getting my own emails.
 I will pick up a book on some advanced css, layout and design so that my front end pages actually look decent.
@@ -499,6 +499,30 @@ I’m not talking about clientside MVC frameworks, but just plain old CSS to mak
         <category>css</category>
         
         <category>jquery</category>
+        
+      </item>
+    
+      <item>
+        <title>Freelance projects</title>
+        <description>&lt;h1 id=&quot;chicago-ad-solution&quot;&gt;Chicago Ad Solution&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.chicagoadsolution.com/&quot;&gt;http://www.chicagoadsolution.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This was a redesign of an old website. The client wanted to be able to add new clients as posts to a website without having to dig through a bunch of code. I used a Wordpress site and added PageLines, a tool that made drag and drop components for Wordpress sites.
+This project gave me some experience dealing with clients as well as monetary constraints. At this point, I did not know much about programming languages outside of basic HTML and CSS, but there are enough resources online for me to figure out what I needed to do. I handed this site over to the client and he has been managing it ever since.&lt;/p&gt;
+
+&lt;h1 id=&quot;trading-university-live-trading-room&quot;&gt;Trading University: Live Trading Room&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;http://tradinguniversityltr.com/&quot;&gt;http://tradinguniversityltr.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This was a website build from scratch. I needed to talk with the client regarding his content strategy and expected deliverables from him to add to the site. We spoke about SEO and website layout and I offered him a few choices for templates for a Wordpress site. I communicated with him on several occasions afterwards to make sure everything looked the way he wanted it to look. Afterwards I handed this project over to him as well.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 14 Sep 2015 05:34:07 -0500</pubDate>
+        <link>localhost:4000/wordpress/templates/2015/09/14/Other-projects.html</link>
+        <guid isPermaLink="true">localhost:4000/wordpress/templates/2015/09/14/Other-projects.html</guid>
+        
+        
+        <category>wordpress</category>
+        
+        <category>templates</category>
         
       </item>
     
