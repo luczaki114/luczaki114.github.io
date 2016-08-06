@@ -1,0 +1,113 @@
+body {
+    background: #5C666F;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 0;
+    text-align: center;
+}
+.green {
+    color: #30bd33;
+    font-size: 30px;
+}
+
+.white {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.countdown {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    .card {
+        position: relative;
+        width: 33.333%;
+        text-align: center;
+        .white {
+            color: white;
+            font-size: 55px;
+        }
+        .green {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (min-width: 544px) {
+    .countdown {
+        .card {
+            width: 33.333%;
+            &:after,
+            &:before {
+                position: absolute;
+                top: 20px;
+                right: -10px;
+                content: " ";
+                height: 20px;
+                width: 20px;
+                border-radius: 100%;
+                background-color: #30bd33;
+            }
+            &:before {
+                top: 50px;
+            }
+            &:nth-child(3n+3) {
+                &:after,
+                &:before {
+                    display: none;
+                }
+            }
+            .white {
+                font-size: 70px;
+            }
+            .green {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media (min-width: 720px) {
+    .countdown {
+        .card {
+            &:after {
+                top: 35px;
+            }
+            &:before {
+                top: 65px;
+            }
+            .white {
+                font-size: 100px
+            }
+            .green {
+                font-size: 35px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1140px) {
+    .countdown {
+        .card {
+            flex-grow: 1;
+            flex-basis: 16%;
+            width: auto;
+            &:nth-child(3) {
+                &:after,
+                &:before {
+                    display: block;
+                }
+            }
+        }
+    }
+
+}
+
