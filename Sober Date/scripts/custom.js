@@ -4,10 +4,11 @@
 // You don't need to use all the fields, but you cannot skip any fields.
 // Months start at 0 and go to 11. So January is 0 and December is 11.
 // Hours are in military time. 00 = 12am and 23 = 11pm.
-var startDate = new Date(2015, 1, 5);
+var soberDate = new Date(2015, 1, 5);
+var smokeDate = new Date(2017, 2, 15);
 
-var updateTime = function () {
-    var timeToEvent = countdown(startDate);
+var updateTime = function (selector, date) {
+    var timeToEvent = countdown(date);
 
     var numberOfYears = timeToEvent.years, numberOfMonths = timeToEvent.months, numberOfDays = timeToEvent.days, numberOfHours = timeToEvent.hours, numberOfMinutes = timeToEvent.minutes, numberOfSeconds = timeToEvent.seconds;
 
@@ -18,16 +19,18 @@ var updateTime = function () {
         return number;
     }
 
-    document.querySelector(".number-of-years").innerHTML = parseNumber(numberOfYears);
-    document.querySelector(".number-of-months").innerHTML = parseNumber(numberOfMonths);
-    document.querySelector(".number-of-days").innerHTML = parseNumber(numberOfDays);
-    document.querySelector(".number-of-hours").innerHTML = parseNumber(numberOfHours);
-    document.querySelector(".number-of-minutes").innerHTML = parseNumber(numberOfMinutes);
-    document.querySelector(".number-of-seconds").innerHTML = parseNumber(numberOfSeconds);
+    document.querySelector(selector + " .number-of-years").innerHTML = parseNumber(numberOfYears);
+    document.querySelector(selector + " .number-of-months").innerHTML = parseNumber(numberOfMonths);
+    document.querySelector(selector + " .number-of-days").innerHTML = parseNumber(numberOfDays);
+    document.querySelector(selector + " .number-of-hours").innerHTML = parseNumber(numberOfHours);
+    document.querySelector(selector + " .number-of-minutes").innerHTML = parseNumber(numberOfMinutes);
+    document.querySelector(selector + " .number-of-seconds").innerHTML = parseNumber(numberOfSeconds);
 }
 
-updateTime()
+updateTime(".sober-date", soberDate );
+updateTime(".smoke-date", smokeDate );
 setInterval(function () {
-    updateTime();
+    updateTime(".sober-date", soberDate);
+    updateTime(".smoke-date", smokeDate );
 }, 1000)
     
