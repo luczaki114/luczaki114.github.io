@@ -5,7 +5,7 @@
 // Months start at 0 and go to 11. So January is 0 and December is 11.
 // Hours are in military time. 00 = 12am and 23 = 11pm.
 var soberDate = new Date(2015, 1, 5);
-var smokeDate = new Date(2017, 10, 26, 23);
+// var smokeDate = new Date(2017, 10, 26, 23);
 
 var updateTime = function (selector, date) {
     var timeToEvent = countdown(date);
@@ -28,9 +28,9 @@ var updateTime = function (selector, date) {
 }
 
 updateTime(".sober-date", soberDate );
-updateTime(".smoke-date", smokeDate );
+// updateTime(".smoke-date", smokeDate );
 setInterval(function () {
     updateTime(".sober-date", soberDate);
-    updateTime(".smoke-date", smokeDate );
+//     updateTime(".smoke-date", smokeDate );
 }, 1000)
     
